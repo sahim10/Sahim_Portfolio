@@ -21,7 +21,24 @@ a:focus {
 .btn:focus {
     box-shadow: none;
 }
-
+.view-btn a{
+    background: #ee4c7c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 36px;
+    display: inline-block;
+    width: 35%;
+    border-radius: 24px;
+}
+.view-btn{
+    text-align: center;
+    margin-top: 5%;
+}
+.view-btn a:hover {
+    color: white;
+    background: #008080;
+}
 
 .wrapper {
     position: relative;
